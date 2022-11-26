@@ -10,7 +10,8 @@ First, download the files
 - Unzip the downloaded .zip File
 - Copy the unzipped folder and navigate to `Documents/Arduino/libraries` and paste it there. Rember to paste the FOLDER, the not FILES inside of it
 
-To update, do these exact same steps and replace the old `ClubRonot` folder
+To update, do these exact same steps and replace the old `ClubRobot` folder
+
 And you're done! Now write `#include <ClubRobot.h>` on the top of your Arduino Sketch (code) and call `robotInit();` in `void setup()` and it should work!
 
 # How to connect
