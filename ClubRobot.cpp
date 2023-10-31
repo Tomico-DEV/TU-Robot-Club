@@ -10,6 +10,7 @@ unsigned long int peak1, peak2, delta;
 int tempStore[ARR_LENGTH], deltaStore[ARR_LENGTH], pinNo;
 int* chRes;
 
+// original rc code taken from here - https://projecthub.arduino.cc/abhilashpatel121/reading-rc-receiver-ppm-signal-using-arduino-63de0c
 void robotInit() {
   pinMode(L1, OUTPUT);
   pinMode(L2, OUTPUT);
